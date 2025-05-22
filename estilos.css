@@ -1,0 +1,69 @@
+/*reseteo de margenes y padding */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*estilo para el menu*/
+header{
+    background-color: rgb(54, 9, 216);
+    color: rgb(237, 234, 242);
+    padding: 10px 0;
+    text-align: right;
+}
+h1{
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+header nav ul li a{
+    color: rgb(251, 251, 252);
+    text-decoration: none;
+    font-size: 18px;
+}
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/*Estilos par ala seccion central */
+main{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.columna {
+    width: 30%;
+    padding: 20px;
+    border: 1px solid #ddd;
+    background-color: #b9b6de9d;
+}
+.columna h2 {
+    text-align: center;
+    color: #333;
+}
+
+.columna p {
+    text-align: justify;
+    color: #555;
+}
+/* Estilo para el pie de pagina*/
+footer {
+    background-color: rgb(34, 6, 135);
+    color: rgb(253, 253, 255);
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+footer p {
+    font-size: 14px;
+}
